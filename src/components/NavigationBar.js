@@ -43,6 +43,11 @@ export const NavigationBar = (props) => (
             </NavLink>
           </Nav.Item>
           <Nav.Item>
+            <NavLink to="gallery" className="nav-link">
+              Gallery
+            </NavLink>
+          </Nav.Item>
+          <Nav.Item>
             <NavLink to="contact" className="nav-link">
               Contact
             </NavLink>

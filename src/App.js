@@ -5,6 +5,7 @@ import {Home} from './Home';
 import {Services} from './Services';
 import {About} from './About';
 import {Contact} from './Contact';
+import {Gallery} from './Gallery';
 import {NoMatch} from './NoMatch';
 
 import {Layout} from './components/Layout';
@@ -21,6 +22,7 @@ class App extends Component {
               <Route exact path="/" component={Home} />
               <Route path="/services" component={Services} />
               <Route path="/about" component={About} />
+              <Route path="/gallery" component={Gallery} />
               <Route path="/contact" component={Contact} />
               <Route component={NoMatch} />
             </Switch>
