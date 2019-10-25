@@ -28,8 +28,8 @@ function AlertDismissibleExample() {
 export const Contact = () => {
 
   return(
-    <div>
-      <h1>Hello Contact</h1>
+    <div className="mt-5">
+      <h1>Contact</h1>
 
       <AlertDismissibleExample />
 

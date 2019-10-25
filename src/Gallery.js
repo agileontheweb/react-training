@@ -7,11 +7,11 @@ import  { SecondGallery } from './asset/SecondGallery';
 export const Gallery = () => {
 
   return(
-
-    <div>
+    <div className="mt-5">
       <h1>Gallery</h1>
       <MyCarousel
-        array={FirstGallery} />
+        array={FirstGallery}
+        heightContainerInner="350px" />
 
         <h2>Another Gallery</h2>
 

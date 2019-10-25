@@ -1,7 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
 
-
 import Button from 'react-bootstrap/Button'
 import Modal from 'react-bootstrap/Modal'
 export const About = () => {
@@ -11,10 +10,8 @@ export const About = () => {
   const handleShow = () => setShow(true);
 
   return(
-    <div>
+    <div className="mt-5">
       <h1>About</h1>
-
-      
 
       <Button variant="primary" onClick={handleShow}>
         Launch demo modal
@@ -34,7 +31,6 @@ export const About = () => {
           </Button>
         </Modal.Footer>
       </Modal>
-
     </div>
   )
 }

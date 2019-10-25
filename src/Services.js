@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card'
 
 export const Services = () => {
   return(
-    <div>
+    <div className="mt-5">
     <h1>Hello Services</h1>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Enim neque volutpat ac tincidunt. Augue mauris augue neque gravida in fermentum. Adipiscing bibendum est ultricies integer quis auctor elit. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Pretium viverra suspendisse potenti nullam. Eget aliquet nibh praesent tristique magna sit amet. Ultrices sagittis orci a scelerisque purus semper eget duis. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Phasellus vestibulum lorem sed risus ultricies. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Eu turpis egestas pretium aenean pharetra magna ac placerat. Ipsum dolor sit amet consectetur adipiscing elit. Viverra orci sagittis eu volutpat odio facilisis mauris. Sapien et ligula ullamcorper malesuada. Ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam. Aliquam sem et tortor consequat id.

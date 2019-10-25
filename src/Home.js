@@ -11,7 +11,7 @@ export const Home = () => {
 
   return(
 
-    <div>
+    <div className="mt-5">
 
 
     <h1>Hello Home</h1>
