@@ -3,13 +3,17 @@ import React from 'react';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import Card from 'react-bootstrap/Card'
-import Button from 'react-bootstrap/Button'
 import Media from 'react-bootstrap/Media'
 
+import {MyCard} from './components/MyCard';
+
 export const Home = () => {
+
   return(
+
     <div>
+
+
     <h1>Hello Home</h1>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Enim neque volutpat ac tincidunt. Augue mauris augue neque gravida in fermentum. Adipiscing bibendum est ultricies integer quis auctor elit. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Pretium viverra suspendisse potenti nullam. Eget aliquet nibh praesent tristique magna sit amet. Ultrices sagittis orci a scelerisque purus semper eget duis. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Phasellus vestibulum lorem sed risus ultricies. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Eu turpis egestas pretium aenean pharetra magna ac placerat. Ipsum dolor sit amet consectetur adipiscing elit. Viverra orci sagittis eu volutpat odio facilisis mauris. Sapien et ligula ullamcorper malesuada. Ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam. Aliquam sem et tortor consequat id.
@@ -17,43 +21,30 @@ export const Home = () => {
       <Container>
         <Row>
           <Col xs={12} md={4}>
-            <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src="https://images.pexels.com/photos/2780349/pexels-photo-2780349.jpeg" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up the bulk of
-                  the card's content.
-                </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
-              </Card.Body>
-            </Card>
+            <MyCard
+              title="Photo 1!"
+              image="https://images.pexels.com/photos/2780349/pexels-photo-2780349.jpeg"
+              text="Lorem ispum 1"
+              button="Mas info"
+            />
           </Col>
+
           <Col xs={12} md={4}>
-            <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src="https://images.pexels.com/photos/2072453/pexels-photo-2072453.jpeg" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up the bulk of
-                  the card's content.
-                </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
-              </Card.Body>
-            </Card>
+            <MyCard
+              title="Photo 2!"
+              image="https://images.pexels.com/photos/1816593/pexels-photo-1816593.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              text="Lorem ispum 2"
+              button="Mas info 2"
+            />
           </Col>
+
           <Col xs={12} md={4}>
-            <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src="https://images.pexels.com/photos/1868563/pexels-photo-1868563.jpeg" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up the bulk of
-                  the card's content.
-                </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
-              </Card.Body>
-            </Card>
+          <MyCard
+            title="Photo 3!"
+            image="https://images.pexels.com/photos/3112008/pexels-photo-3112008.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            text="Lorem ispum 3"
+            button="Mas info 3"
+          />
           </Col>
         </Row>
 
