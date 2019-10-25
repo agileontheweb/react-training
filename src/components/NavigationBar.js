@@ -24,7 +24,11 @@ export const NavigationBar = (props) => (
 
   <Styles>
     <Navbar expand="sm" className="navbar-dark">
-      <Navbar.Brand href="/">Code life</Navbar.Brand>
+      <Navbar.Brand>
+        <NavLink to="/" className="nav-link">
+          Code life
+        </NavLink>
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
