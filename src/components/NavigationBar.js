@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { Nav, Navbar } from 'react-bootstrap';
 import styled from 'styled-components';
 
@@ -29,19 +29,19 @@ export const NavigationBar = (props) => (
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
           <Nav.Item>
-            <Nav.Link href="services">
+            <NavLink to="services" className="nav-link">
               Services
-            </Nav.Link>
+            </NavLink>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="about">
+            <NavLink to="about" className="nav-link">
               About
-            </Nav.Link>
+            </NavLink>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="contact">
+            <NavLink to="contact" className="nav-link">
               Contact
-            </Nav.Link>
+            </NavLink>
           </Nav.Item>
         </Nav>
       </Navbar.Collapse>
