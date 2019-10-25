@@ -20,20 +20,6 @@ var galleries = [
            title: 'titolo 2 immagine'
          }
        ]
- },
- {
-     id: 2,
-     name: 'Galleria 2',
-     gallery:
-         [{
-           src: 'https://images.pexels.com/photos/2780349/pexels-photo-2780349.jpeg',
-           title: 'titolo 1 immagine 2 galleria'
-         },
-         {
-           src: 'https://images.pexels.com/photos/2780349/pexels-photo-2780349.jpeg',
-           title: 'titolo 2 immagine 2 galleria'
-         }
-       ]
  }
 ];
 
