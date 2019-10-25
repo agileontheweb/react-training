@@ -13,7 +13,7 @@ export const Home = () => {
     <h1>Hello Home</h1>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Enim neque volutpat ac tincidunt. Augue mauris augue neque gravida in fermentum. Adipiscing bibendum est ultricies integer quis auctor elit. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Pretium viverra suspendisse potenti nullam. Eget aliquet nibh praesent tristique magna sit amet. Ultrices sagittis orci a scelerisque purus semper eget duis. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Phasellus vestibulum lorem sed risus ultricies. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Eu turpis egestas pretium aenean pharetra magna ac placerat. Ipsum dolor sit amet consectetur adipiscing elit. Viverra orci sagittis eu volutpat odio facilisis mauris. Sapien et ligula ullamcorper malesuada. Ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam. Aliquam sem et tortor consequat id.
-
+    </p>
       <Container>
         <Row>
           <Col xs={12} md={4}>
@@ -99,7 +99,7 @@ export const Home = () => {
       Viverra nibh cras pulvinar mattis. Nunc id cursus metus aliquam. Ante in nibh mauris cursus mattis molestie a iaculis. Imperdiet sed euismod nisi porta lorem mollis aliquam ut porttitor. Amet risus nullam eget felis eget. Lectus magna fringilla urna porttitor rhoncus dolor purus. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Cursus euismod quis viverra nibh cras. Vestibulum morbi blandit cursus risus at ultrices mi tempus. Sed viverra tellus in hac habitasse platea dictumst. Iaculis at erat pellentesque adipiscing commodo elit at. Aliquam sem et tortor consequat id porta nibh venenatis. Etiam tempor orci eu lobortis elementum nibh tellus molestie. Nunc aliquet bibendum enim facilisis gravida neque convallis. Quam pellentesque nec nam aliquam sem et.
 
       Vel facilisis volutpat est velit egestas dui id ornare. Nulla porttitor massa id neque aliquam vestibulum morbi blandit cursus. Turpis egestas integer eget aliquet. Mi proin sed libero enim sed faucibus. Gravida quis blandit turpis cursus in hac habitasse platea dictumst. Adipiscing elit ut aliquam purus sit amet. Habitasse platea dictumst quisque sagittis purus sit amet volutpat. Nibh sed pulvinar proin gravida hendrerit lectus a. Blandit turpis cursus in hac habitasse platea dictumst quisque sagittis. Dignissim convallis aenean et tortor at risus viverra adipiscing at. Lorem dolor sed viverra ipsum nunc aliquet bibendum enim facilisis.
-    </p>
+
     </div>
   )
 }

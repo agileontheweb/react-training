@@ -21,6 +21,7 @@ const Styles = styled.div`
 `;
 
 export const NavigationBar = (props) => (
+
   <Styles>
     <Navbar expand="sm" className="navbar-dark">
       <Navbar.Brand href="/">Code life</Navbar.Brand>
@@ -28,18 +29,18 @@ export const NavigationBar = (props) => (
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
           <Nav.Item>
-            <Nav.Link>
-              <Link to="services">Services</Link>
+            <Nav.Link to="services">
+              Services
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link>
-              <Link to="about">About</Link>
+            <Nav.Link to="about">
+              About
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link>
-              <Link to="contact">Contact</Link>
+            <Nav.Link to="contact">
+              Contact
             </Nav.Link>
           </Nav.Item>
         </Nav>
