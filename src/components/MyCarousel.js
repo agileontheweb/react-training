@@ -5,16 +5,17 @@ type CarouselProps = {
   array: array,
   name: string,
   src: string,
-  capitionText: string
+  capitionText: string,
+  heightContainerInner: number
 }
 
-export const MyCarousel = ({array, name, src, capitionText}: CarouselProps ) => (
+export const MyCarousel = ({array, name, src, capitionText, heightContainerInner}: CarouselProps ) => (
 
   <div>
   {array.map((gallery, index) =>
     <Carousel key={index}>
       {gallery.gallery.map((gallery, index) =>
-        <Carousel.Item key={index}>
+        <Carousel.Item key={index} style={{height: heightContainerInner}}>
           <img
             key={index}
             className="d-block w-100"
